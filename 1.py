@@ -20,4 +20,7 @@ import random
 # print(random.random())
 
 # getrandbits
-print(random.getrandbits(8))
+# print(random.getrandbits(8))
+
+# randrange
+print(random.randrange(3, 9))
