@@ -41,5 +41,11 @@ print(random.choices(
 ))
 
 # random shuffle
-random.shuffle(a)
+# random.shuffle(a)
+print(a)
+
+def b():
+    return 0.1
+
+random.shuffle(a, b)
 print(a)
