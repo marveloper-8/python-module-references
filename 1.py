@@ -29,12 +29,17 @@ print(random.randrange(3, 9))
 print(random.randint(3, 9))
 
 # random choice
-print(random.choice(["apple", "banana", "cherry"]))
+a = ["apple", "banana", "cherry"]
+print(random.choice(a))
 print(random.choice("WELCOME"))
 
 # random choices
 print(random.choices(
-    ["apple", "banana", "cherry"],
+    a,
     weights=[10, 1, 1],
     k = 14
 ))
+
+# random shuffle
+random.shuffle(a)
+print(a)
