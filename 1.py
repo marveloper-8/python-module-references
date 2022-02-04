@@ -24,3 +24,6 @@ import random
 
 # randrange
 print(random.randrange(3, 9))
+
+# randint
+print(random.randint(3, 9))
