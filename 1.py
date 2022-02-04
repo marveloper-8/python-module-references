@@ -55,3 +55,6 @@ print(random.sample(a, k=2))
 
 # random random
 print(random.random())
+
+# random uniform
+print(random.uniform(20, 60))
