@@ -52,3 +52,6 @@ print(a)
 
 # random sample
 print(random.sample(a, k=2))
+
+# random random
+print(random.random())
