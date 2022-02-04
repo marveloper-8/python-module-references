@@ -30,3 +30,4 @@ print(random.randint(3, 9))
 
 # random choice
 print(random.choice(["apple", "banana", "cherry"]))
+print(random.choice("WELCOME"))
