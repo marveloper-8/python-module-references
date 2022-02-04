@@ -11,10 +11,13 @@ import random
 # print(random.getstate())
 
 # random setstate
-print(random.random())
+# print(random.random())
 
-a = random.getstate()
-print(random.random())
+# a = random.getstate()
+# print(random.random())
 
-random.setstate(a)
-print(random.random())
+# random.setstate(a)
+# print(random.random())
+
+# getrandbits
+print(random.getrandbits(8))
