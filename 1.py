@@ -61,3 +61,4 @@ print(random.uniform(20, 60))
 
 # random triangular
 print(random.triangular(20, 60, 30))
+
