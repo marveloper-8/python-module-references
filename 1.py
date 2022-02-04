@@ -27,3 +27,6 @@ print(random.randrange(3, 9))
 
 # randint
 print(random.randint(3, 9))
+
+# random choice
+print(random.choice(["apple", "banana", "cherry"]))
