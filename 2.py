@@ -42,4 +42,5 @@ f = "https://w3schools.com/images/pulpit.jpg"
 # print(requests.head(a).status_code)
 # print(requests.head(a, auth=('user', 'pass')).status_code)
 # print(requests.head(c, cert='folder/myclient.cert').status_code)
-print(requests.head(a, cookies={"favcolor": "Red"}).status_code)
+# print(requests.head(a, cookies={"favcolor": "Red"}).status_code)
+print(requests.head(e, headers={"HTTP_HOST": "MyVeryOwnHost"}).status_code)
