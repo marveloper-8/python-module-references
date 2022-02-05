@@ -9,3 +9,4 @@ a = "https://w3schools.com/python/demopage.php"
 # print(requests.delete(a, auth=('user', 'pass')).status_code)
 # print(requests.delete(a, cert='folder/myclient.cert').status_code)
 print(requests.delete(a, cookies={"favcolor": "Red"}).status_code)
+print(requests.delete(a, headers={"HTTP_HOST": "MyVeryOwnHost"}).status_code)
