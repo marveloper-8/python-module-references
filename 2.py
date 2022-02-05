@@ -33,4 +33,5 @@ f = "https://w3schools.com/images/pulpit.jpg"
 # print(requests.get(e, headers={"HTTP_HOST": "MyVeryOwnHost"}).text)
 # print(requests.get(a, proxies={"https": "https://1.1.0.1:80"}).text)
 # print(requests.get(f, stream=True).status_code)
-print(requests.get(a, timeout=0.001).text)
+# print(requests.get(a, timeout=0.001).text)
+print(requests.get(a, verify="folder/myclient.cert").status_code)
