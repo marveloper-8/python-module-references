@@ -45,4 +45,5 @@ f = "https://w3schools.com/images/pulpit.jpg"
 # print(requests.head(a, cookies={"favcolor": "Red"}).status_code)
 # print(requests.head(e, headers={"HTTP_HOST": "MyVeryOwnHost"}).status_code)
 # print(requests.head(a, proxies={"https": "https://1.1.0.1.80"}).status_code)
-print(requests.head(f, stream=True).status_code)
+# print(requests.head(f, stream=True).status_code)
+print(requests.head(a, timeout=0.001).status_code)
