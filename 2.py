@@ -18,5 +18,9 @@ a = "https://w3schools.com/python/demopage.php"
 
 b = "https://w3schools.com"
 c = "https://w3schools.com/python/demopage.htm"
-print(requests.get(b).status_code)
+# print(requests.get(b).status_code)
+# print(requests.get(c).text)
+# print(requests.get(a, params={"model": "Mustang"}).text)
 print(requests.get(c).text)
+print("-----------------------")
+print(requests.get(c, allow_redirects=False).text)
