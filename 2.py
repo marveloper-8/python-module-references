@@ -12,4 +12,5 @@ a = "https://w3schools.com/python/demopage.php"
 # print(requests.delete(a, headers={"HTTP_HOST": "MyVeryOwnHost"}).status_code)
 # print(requests.delete(a, proxies={"https": "https://1.1.0.1.:80"}).status_code)
 # print(requests.delete(a, stream=True).status_code)
-print(requests.delete(a, timeout=0.001).text)
+# print(requests.delete(a, timeout=0.001).text)
+print(requests.delete(a, verify='folder/myclient.cert').status_code)
