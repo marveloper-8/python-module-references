@@ -18,11 +18,13 @@ a = "https://w3schools.com/python/demopage.php"
 
 b = "https://w3schools.com"
 c = "https://w3schools.com/python/demopage.htm"
+d = "https://w3schools.com/python/demopage2.php"
 # print(requests.get(b).status_code)
 # print(requests.get(c).text)
 # print(requests.get(a, params={"model": "Mustang"}).text)
-print(requests.get(c).text)
-print("-----------------------")
-print(requests.get(c, allow_redirects=False).text)
-print(requests.get(a, auth=('user', 'pass')).status_code)
-print(requests.get(c, cert='folder/myclient.cert').status_code)
+# print(requests.get(c).text)
+# print("-----------------------")
+# print(requests.get(c, allow_redirects=False).text)
+# print(requests.get(a, auth=('user', 'pass')).status_code)
+# print(requests.get(c, cert='folder/myclient.cert').status_code)
+print(requests.get(d, cookies={"favcolor": "Red"}).text)
