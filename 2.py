@@ -37,5 +37,6 @@ f = "https://w3schools.com/images/pulpit.jpg"
 # print(requests.get(a, verify="folder/myclient.cert").status_code)
 # print(requests.get(a, verify=False).status_code)
 
-print(requests.head(a).headers)
-print(requests.head(a, allow_redirects=True).status_code)
+# print(requests.head(a).headers)
+# print(requests.head(a, allow_redirects=True).status_code)
+print(requests.head(a).status_code)
