@@ -20,6 +20,7 @@ b = "https://w3schools.com"
 c = "https://w3schools.com/python/demopage.htm"
 d = "https://w3schools.com/python/demopage2.php"
 e = "https://w3schools.com/python/demopage.asp"
+f = "https://w3schools.com/images/pulpit.jpg"
 # print(requests.get(b).status_code)
 # print(requests.get(c).text)
 # print(requests.get(a, params={"model": "Mustang"}).text)
@@ -30,4 +31,6 @@ e = "https://w3schools.com/python/demopage.asp"
 # print(requests.get(c, cert='folder/myclient.cert').status_code)
 # print(requests.get(d, cookies={"favcolor": "Red"}).text)
 # print(requests.get(e, headers={"HTTP_HOST": "MyVeryOwnHost"}).text)
-print(requests.get(a, proxies={"https": "https://1.1.0.1:80"}).text)
+# print(requests.get(a, proxies={"https": "https://1.1.0.1:80"}).text)
+# print(requests.get(f, stream=True).status_code)
+print(requests.get(a, timeout=0.001).text)
