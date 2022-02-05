@@ -14,4 +14,7 @@ a = "https://w3schools.com/python/demopage.php"
 # print(requests.delete(a, stream=True).status_code)
 # print(requests.delete(a, timeout=0.001).text)
 # print(requests.delete(a, verify='folder/myclient.cert').status_code)
-print(requests.delete(a, verify=False).status_code)
+# print(requests.delete(a, verify=False).status_code)
+
+b = "https://w3schools.com"
+print(requests.get(b).status_code)
