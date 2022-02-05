@@ -24,3 +24,5 @@ c = "https://w3schools.com/python/demopage.htm"
 print(requests.get(c).text)
 print("-----------------------")
 print(requests.get(c, allow_redirects=False).text)
+
+print(requests.get(a, auth=('user', 'pass')).status_code)
