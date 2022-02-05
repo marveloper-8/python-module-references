@@ -17,4 +17,6 @@ a = "https://w3schools.com/python/demopage.php"
 # print(requests.delete(a, verify=False).status_code)
 
 b = "https://w3schools.com"
+c = "https://w3schools.com/python/demopage.htm"
 print(requests.get(b).status_code)
+print(requests.get(c).text)
