@@ -15,3 +15,4 @@ print(math.acosh(2.45))
 
 # return the arc sine of different numbers
 print(math.asin(0.55))
+print(math.asin(-0.55))
