@@ -30,3 +30,7 @@ print(math.asinh(2.45))
 print(math.atan(0.39))
 print(math.atan(67))
 print(math.atan(-21))
+
+# math arc tangent of y/x in radians
+print(math.atan2(8, 5))
+print(math.atan2(20, 10))
