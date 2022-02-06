@@ -19,3 +19,8 @@ print(math.asin(-0.55))
 print(math.asin(0))
 print(math.asin(1))
 print(math.asin(-1))
+
+# math inverse hypobolic sine
+print(math.asinh(7))
+print(math.asinh(56))
+print(math.asinh(1))
