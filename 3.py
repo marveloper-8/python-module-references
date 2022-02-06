@@ -57,3 +57,4 @@ print(math.copysign(-43, -76))
 
 # return the cosine of different numbers
 print(math.cos(0.00))
+print(math.cos(-1.23))
