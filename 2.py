@@ -21,6 +21,8 @@ c = "https://w3schools.com/python/demopage.htm"
 d = "https://w3schools.com/python/demopage2.php"
 e = "https://w3schools.com/python/demopage.asp"
 f = "https://w3schools.com/images/pulpit.jpg"
+g = {'somekey': 'somevalue'}
+h = {'file': open('image.jpeg', 'rb')}
 # print(requests.get(b).status_code)
 # print(requests.get(c).text)
 # print(requests.get(a, params={"model": "Mustang"}).text)
@@ -46,4 +48,11 @@ f = "https://w3schools.com/images/pulpit.jpg"
 # print(requests.head(e, headers={"HTTP_HOST": "MyVeryOwnHost"}).status_code)
 # print(requests.head(a, proxies={"https": "https://1.1.0.1.80"}).status_code)
 # print(requests.head(f, stream=True).status_code)
-print(requests.head(a, timeout=0.001).status_code)
+# print(requests.head(a, timeout=0.001).status_code)
+# print(requests.head(a, verify='folder'))
+# print(requests.head(a, verify="folder/myclient.cert").status_code)
+
+# print(requests.post(a, data={'somekey': 'somevalue'}).text)
+# print(requests.post(a).text)
+# print(requests.post(a, data=g).text)
+print(requests.post(a, files=h).text)
