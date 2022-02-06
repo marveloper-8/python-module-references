@@ -24,3 +24,7 @@ print(math.asin(-1))
 print(math.asinh(7))
 print(math.asinh(56))
 print(math.asinh(1))
+print(math.asinh(2.45))
+
+# math arc tangent
+print(math.atan(0.39))
