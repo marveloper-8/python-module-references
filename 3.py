@@ -9,3 +9,6 @@ print(math.acos(-1))
 
 # math inverse hyperbolic cosine
 print(math.acosh(7))
+print(math.acosh(56))
+print(math.acosh(1))
+print(math.acosh(2.45))
