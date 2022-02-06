@@ -35,3 +35,6 @@ print(math.atan(-21))
 print(math.atan2(8, 5))
 print(math.atan2(20, 10))
 print(math.atan2(34, -7))
+
+# math hyperbolic arctangent
+print(math.atanh(0.59))
