@@ -4,3 +4,4 @@ import math
 print(math.acos(0.55))
 print(math.acos(-0.55))
 print(math.acos(0))
+print(math.acos(1))
