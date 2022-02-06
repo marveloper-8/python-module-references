@@ -39,3 +39,8 @@ print(math.atan2(34, -7))
 # math hyperbolic arctangent
 print(math.atanh(0.59))
 print(math.atanh(-0.12))
+
+# math round number upward to nearest integer
+print(math.ceil(1.4))
+print(math.ceil(5.3))
+print(math.ceil(22.6))
