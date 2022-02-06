@@ -75,3 +75,4 @@ print(math.degrees(90))
 
 # find euclidean distance between two points
 print(math.dist([3], [1]))
+print(math.dist([3, 3], [6, 12]))
