@@ -28,3 +28,4 @@ print(math.asinh(2.45))
 
 # math arc tangent
 print(math.atan(0.39))
+print(math.atan(67))
