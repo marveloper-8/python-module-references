@@ -70,3 +70,8 @@ print(math.cosh(0))
 # math convert radians to degrees
 print(math.degrees(8.90))
 print(math.degrees(-20))
+print(math.degrees(1))
+print(math.degrees(90))
+
+# find euclidean distance between two points
+print(math.dist([3], [1]))
