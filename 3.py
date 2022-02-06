@@ -60,3 +60,6 @@ print(math.cos(0.00))
 print(math.cos(-1.23))
 print(math.cos(10))
 print(math.cos(3.14159265359))
+
+# math hyperbolic cosine
+print(math.cosh(1))
