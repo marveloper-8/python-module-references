@@ -66,3 +66,6 @@ print(math.cosh(1))
 print(math.cosh(8.90))
 print(math.cosh(1.52))
 print(math.cosh(0))
+
+# math convert radians to degrees
+print(math.degrees(8.90))
